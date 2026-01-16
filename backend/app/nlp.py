@@ -1,8 +1,10 @@
 import re
 import unicodedata
+import nltk
 from nltk.corpus import stopwords
 from nltk.stem import RSLPStemmer
 
+nltk.download("stopwords")
 STOP_WORDS = set(stopwords.words("portuguese"))
 STEMMER = RSLPStemmer()
 
