@@ -1,0 +1,18 @@
+# Ambientes virtuais
+venv/
+.env
+
+# Node
+node_modules/
+
+# Builds
+dist/
+build/
+
+# Python
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+Thumbs.db
