@@ -160,7 +160,7 @@ A interface estará disponível em:
 http://localhost:5173
 ```
 
-## 🔌 Endpoint Principal
+## Endpoint Principal
 POST /api/process-email
 Processa um email enviado como texto ou arquivo.
 
