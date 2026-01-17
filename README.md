@@ -160,23 +160,6 @@ A interface estará disponível em:
 http://localhost:5173
 ```
 
-## Endpoint Principal
-POST /api/process-email
-Processa um email enviado como texto ou arquivo.
-
-#### Entrada
-emailText (string) OU
-
-file (.txt ou .pdf)
-
-#### Saída
-```json
-{
-  "categoria": "Produtivo",
-  "resposta_sugerida": "Obrigado pelo contato. Vou analisar sua solicitação e retorno em breve."
-}
-```
-
 ## Lógica de Classificação
 A classificação é feita via IA generativa, orientada por prompts cuidadosamente projetados para:
 - Retornar apenas categorias válidas
